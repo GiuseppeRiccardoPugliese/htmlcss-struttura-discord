@@ -78,8 +78,13 @@ a{
     background-color: #ee82ee;
 }
 
-/* Stili SECONDA sezione */
-.contenitore_second_section{
+/* Selettore avanzato per "value " per il colore di sfondo */
+.contenitore_third_section , .contenitore_fifth_section[name="grigio"]{
+    background-color: #d3d3d3;
+}
+
+/* Stili SECONDA e QUARTA sezione */
+.contenitore_second_section , .contenitore_fourth_section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,18 +115,6 @@ a{
     align-items: center;
     width: 100%;
     /* Debug roles*/
-    background-color: #d3d3d3;
-    min-height: 450px;
-}
-
-/* Stili QUARTA sezione */
-.contenitore_fourth_section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    /* Debug roles*/
-    background-color: white;
     min-height: 450px;
 }
 
@@ -132,7 +125,6 @@ a{
     align-items: center;
     width: 100%;
     /* Debug roles*/
-    background-color: #d3d3d3;
     min-height: 800px;
 }
 .fifth_section{
