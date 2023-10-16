@@ -136,9 +136,65 @@ a{
     min-height: 800px;
 }
 .fifth_section{
-    flex-basis: 70%;
+    flex-basis: 60%;
     border-style: dashed;
     /* Debug roles */
     min-height: 750px;
     background-color: #228b22;
+}
+
+/* Side prima del footer contenente le adeguate sezioni */
+aside{
+    display: flex;
+    width: 100%;
+    background-color: #23272a;
+}
+.contenitore_side{
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.red-col{
+    display: flex;
+    flex-basis: 16%;
+    background-color: #f08080;
+    border-style: dashed;
+    min-height: 430px;
+}
+.col{
+    flex-basis: 11%;
+    background-color: #20b2aa;
+    min-height: 430px;
+    border-color: #ffffff;
+    border-style: dashed;
+}
+
+/* Fine pagina, contenente logo e bottone */
+footer{
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 90px;
+}
+.contenitore_foot{
+    justify-content: space-between;
+    display: flex;
+    flex-basis: 60%;
+    min-height: 65px;
+    background-color: #7fffd4;
+    align-items: center;
+}
+.logo_foot{
+    background-color: #ffb6c1;
+    border-style: dashed;
+    padding: 0.5%;
+}
+.bottone_foot{
+    background-color: #ffb6c1;
+    border-style: dashed;
+    padding: 0.5%;
 }
