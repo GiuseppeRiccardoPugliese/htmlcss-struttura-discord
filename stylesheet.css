@@ -10,35 +10,135 @@
 
 }
 
-/* Stili Header */
+/* Stili PRINCIPALI Header */
 header{
     display: flex;
     align-items: center;
     justify-content: center;
     /* Debug roles */
     background-color: #add8e6;
-    min-height: 50px;
+    min-height: 70px;
 }
 .contenitore_header{
     display: flex;
     min-width: 70%;
-    border-style: dashed;
     align-items: center;
-    justify-content: space-between;
+    border-style: dashed;
     /* Debug roles */
-    min-height: 35px;
     background-color: #daa520;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Stili SECONDARI header*/
 .logo{
     flex-basis: 20%;
-    /* border-right: 2px dashed black; */
+    border-right-style: dashed;
+    padding: 1%;
 }
 .links{
     flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right-style: dashed;
+}
+.links a{
+    padding: 1%;
 }
 .login{
-    flex-basis: 20%
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 20%;
+    padding: 1%;
 }
 a{
     text-decoration: none;
+}
+
+/* Stili PRIMA sezione sotto header */
+.contenitore_first_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 10px #add8e6;
+    /* Debug roles*/
+    background-color: #00008b;
+    min-height: 450px;
+}
+.first_section{
+    flex-basis: 50%;
+    border-style: dashed;
+    /* Debug roles */
+    min-height: 400px;
+    background-color: #ee82ee;
+}
+
+/* Stili SECONDA sezione */
+.contenitore_second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Debug roles*/
+    background-color: white;
+    min-height: 450px;
+}
+.section_img{
+    display: flex;
+    flex-basis: 35%;
+    background-color: #1e90ff;
+    border-style: dashed;
+    min-height: 400px;
+}
+.section_txt{
+    flex-basis: 25%;
+    background-color: #ffc0cb;
+    border-style: dashed;
+    min-height: 400px;
+}
+
+/* Stili TERZA sezione */
+.contenitore_third_section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Debug roles*/
+    background-color: #d3d3d3;
+    min-height: 450px;
+}
+
+/* Stili QUARTA sezione */
+.contenitore_fourth_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Debug roles*/
+    background-color: white;
+    min-height: 450px;
+}
+
+/* Stili QUINTA sezione */
+.contenitore_fifth_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Debug roles*/
+    background-color: #d3d3d3;
+    min-height: 800px;
+}
+.fifth_section{
+    flex-basis: 70%;
+    border-style: dashed;
+    /* Debug roles */
+    min-height: 750px;
+    background-color: #228b22;
 }
